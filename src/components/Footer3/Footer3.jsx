@@ -39,7 +39,7 @@ class Footer3 extends Component {
     render() {
         return (
             <React.Fragment>
-                <svg className="footer-wave-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E9485E" fillOpacity="1" d="M0,192L80,192C160,192,320,192,480,202.7C640,213,800,235,960,229.3C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+                <svg className="footer-wave-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF494F" fillOpacity="1" d="M0,192L80,192C160,192,320,192,480,202.7C640,213,800,235,960,229.3C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
                 <footer className="footer3-bg">
                     <div className="container footer3-wrapper" id="container-footer">
                         <div className="footer3-left">
@@ -59,7 +59,7 @@ class Footer3 extends Component {
                             <p className="footer-navigation-header">Navigation</p>
                             <Link to="first" spy={true} smooth={true} offset={-70} duration={500} className="footer-navigation-link">For students</Link>
                             <Link to="second" spy={true} smooth={true} offset={-70} duration={500} className="footer-navigation-link">For businesses</Link>
-                            <a href="/#" className="footer-navigation-link">Get in touch</a>
+                            <a href="mailto:henrik.bredenbals@code.berlin" className="footer-navigation-link">Get in touch</a>
                         </div>
                     </div>
                 </footer>

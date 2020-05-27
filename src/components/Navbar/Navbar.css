@@ -33,6 +33,10 @@ nav {
     cursor: pointer;
 }
 
+.top-nav-links.scrolled {
+    color: var(--darkgrey) !important;
+}
+
 .contact-btn {
     background-color: #ffffff;
     padding: .75em 1.6em .7em;

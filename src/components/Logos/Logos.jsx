@@ -10,19 +10,16 @@ class Logos extends Component {
                     <p id="logo-section-header">SOME OF OUR PARTNERS</p>
                     <div className="logo-section">
                         <div className="logo-wrapper">
-                            <img src={require('../../assets/images/google-logo.svg')} alt="logo1"/>
+                            <img src={require('../../assets/images/futury.png')} className="logo1" alt="logo1"/>
                         </div>
                         <div className="logo-wrapper">
-                            <img src={require('../../assets/images/facebook-logo.svg')} alt="logo2"/>
+                            <img src={require('../../assets/images/celonis.png')} className="logo2" alt="logo2"/>
                         </div>
                         <div className="logo-wrapper">
-                            <img src={require('../../assets/images/tesla-logo.svg')} alt="logo3"/>
+                            <img src={require('../../assets/images/neugelb.png')} className="logo3" alt="logo3"/>
                         </div>
                         <div className="logo-wrapper">
-                            <img src={require('../../assets/images/uber-logo.svg')} alt="logo4"/>
-                        </div>
-                        <div className="logo-wrapper" id="last-logo-wrapper">
-                            <img src={require('../../assets/images/stripe-logo.svg')} alt="logo5"/>
+                            <img src={require('../../assets/images/burda.png')} className="logo4" alt="logo4"/>
                         </div>
                     </div>
                 </div>

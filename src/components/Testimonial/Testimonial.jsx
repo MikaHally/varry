@@ -10,7 +10,7 @@ class Testimonial extends Component {
                     <div className="testimonial-left">
                         <h3 id="testimonial-quote">
                             “It was a real pleasure to be part of Varry and start the learning journey with all the
-                            other motivated students and Partners!”
+                            other motivated students and partners!”
                         </h3>
                         <p id="testimonial-author">
                             Stella Shen

@@ -16,11 +16,16 @@
 .testimonial-right {
     width: 40%;
     border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimonial-right img {
-    width: 100%;
     height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 #testimonial-quote {

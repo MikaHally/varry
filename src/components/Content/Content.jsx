@@ -25,10 +25,13 @@ class Content extends Component {
                             */}
                         </div>
                         <div className="content-right">
+                            <img src={require('../../assets/images/content-1.png')} alt="content-img"/>
                         </div>
                     </div>
                     <div className="content-wrapper" id="reverse">
                         <div className="content-right">
+                            <img src={require('../../assets/images/content-2.png')} alt="content-img"/>
+
                         </div>
                         <div className="content-left">
                             <h3>Be part of our vibrant community</h3>
@@ -66,6 +69,7 @@ class Content extends Component {
                             */}
                         </div>
                         <div className="content-right">
+                            <img src={require('../../assets/images/content-3.png')} alt="content-img"/>
                         </div>
                     </div>
                 </div>

@@ -18,6 +18,7 @@ class Hero4 extends Component {
                     </div>
                 </div>
                 <div className="hero4-right">
+                    <img src={require('../../assets/images/hero-img.jpg')} alt="hero-img"/>
                 </div>
             </div>
         );
