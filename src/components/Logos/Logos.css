@@ -1,0 +1,50 @@
+.logos-bg {
+    width: 100%;
+}
+
+#logo-section-header {
+    text-align: center;
+    color: var(--darkgrey);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    width: 12%;
+    text-align: center;
+    opacity: .8;
+    max-width: 160px;
+    min-width: 100px;
+}
+
+.logo-wrapper img {
+    max-width: 80%;
+    max-height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    #logo-section-header {
+        margin-bottom: 40px;
+    }
+
+    .logo-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-wrapper {
+        width: 40%;
+        margin: 50px 0;
+    }
+    #last-logo-wrapper {
+        margin-bottom: 0;
+    }
+}

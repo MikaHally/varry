@@ -1,0 +1,151 @@
+/* Generator wave form at https://getwaves.io/ */
+.footer3-bg {
+    background: var(--primary);
+    width: 100%;
+    margin-top: -5px;
+}
+
+.footer-wave-bg {
+    margin-top: -12vw;
+}
+
+#container-footer {
+    padding: 50px 0 140px 0;
+}
+
+.footer3-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer3-wrapper h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer3-left p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.footer3-left {
+    width: 50%;
+}
+
+#footer-btn {
+    background: #FFFFFF;
+    color: var(--primary);
+}
+
+.footer3-right {
+    width: 20%;
+}
+
+.footer-navigation-header {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-navigation-link {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 2.8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer3-email {
+    margin: 0;
+    border-radius: 10px 0 0 10px;
+    background-color: transparent;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    font-size: 18px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-family: 'Muli', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.footer3-email::placeholder {
+    color: #FFFFFF;
+}
+
+.footer3-signup {
+    display: flex;
+}
+
+.hide-footer3-signup{
+    display: none;
+}
+
+.footer3-button {
+    padding: 12px 36px;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+    color: var(--primary);
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    margin-left: -6px;
+    height: 49px;
+    background-color: #FFFFFF;
+}
+
+.footer3-button:hover {
+    opacity: .9;
+}
+
+.success-signup {
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-weight: 700;
+    display: none;
+}
+
+.show-success-signup {
+    display: block;
+}
+
+@media screen and (min-width: 1600px) {
+    .footer-wave-bg {
+        margin-top: -8vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer3-left {
+        width: 100%;
+        margin-top: 70px;
+    }
+    .footer3-right {
+        width: 100%;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer3-email {
+        font-size: 16px;
+        padding: 12px 12px;
+    }
+    .footer3-button {
+        padding: 12px 10px;
+        font-size: 15px;
+    }
+    .footer3-signup {
+        justify-content: center;
+    }
+    .footer3-email {
+        width: 100%;
+    }
+}
