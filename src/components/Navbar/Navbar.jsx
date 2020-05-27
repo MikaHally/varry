@@ -33,8 +33,8 @@ class Navbar extends Component {
                     </div>
                     <a href="/#"><p className="logo-name"><b>Varry</b></p></a>
                     <ul className={this.state.active ? "nav-links open" : "nav-links"}>
-                        <Link><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For students</span></li></Link>
-                        <Link><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For businesses</span></li></Link>
+                        <Link><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For Students</span></li></Link>
+                        <Link><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For Business</span></li></Link>
                         <li><a href="/#" className={this.state.isTop ? "contact-btn" : "contact-btn scrolled"}>Get in touch</a></li>
                     </ul>
                     <a href="mailto:henrik.bredenbals@code.berlin">
