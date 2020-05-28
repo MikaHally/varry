@@ -171,6 +171,12 @@ nav {
         animation: none;
         backdrop-filter: none;
     }
+    .nav-links li span {
+        color: white !important;
+    }
+    .top-nav-links.scrolled {
+        color: white !important;
+    }
     .line {
         position: absolute;
         width: 30px;
