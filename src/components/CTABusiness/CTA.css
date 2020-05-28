@@ -1,0 +1,38 @@
+.CTA-header {
+    text-align: center;
+}
+
+.CTA-header h2 {
+    margin-bottom: 20px;
+}
+
+.CTA-header p {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--lightgrey);
+    min-width: 600px;
+}
+
+.CTA-btn-wrapper button {
+    margin: 60px 15px 0 15px;
+    position: relative;
+}
+
+.cta-icon {
+    position: absolute;
+    width: 250px;
+    top: 110%;
+    right: -200%;
+}
+
+@media screen and (max-width: 950px) {
+    .CTA-header p {
+        width: 100%;
+        min-width: unset;
+    }
+    .cta-icon {
+        display: none;
+    }
+}

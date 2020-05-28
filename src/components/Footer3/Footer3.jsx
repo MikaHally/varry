@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Footer3.css';
-import {Link} from "react-scroll";
+import {Link} from 'react-router-dom';
 
 class Footer3 extends Component {
     state = {
@@ -18,6 +18,24 @@ class Footer3 extends Component {
         this.setState({signedUp: true});
 
         this.hideInput();
+
+        var Airtable = require('airtable');
+        var base = new Airtable({apiKey: 'key1xYPYmPNjUSHfo'}).base('appTd6uMQvRb4MvhX');
+        base('Varry').create([
+            {
+                "fields": {
+                    email: this.state.email
+                }
+            },
+        ], function(err, records) {
+            if (err) {
+                console.error(err);
+                return;
+            }
+            records.forEach(function (record) {
+                console.log(record.getId());
+            });
+        });
 
         this.setState({email: ""});
     };
@@ -57,8 +75,8 @@ class Footer3 extends Component {
                         </div>
                         <div className="footer3-right">
                             <p className="footer-navigation-header">Navigation</p>
-                            <Link to="first" spy={true} smooth={true} offset={-70} duration={500} className="footer-navigation-link">For students</Link>
-                            <Link to="second" spy={true} smooth={true} offset={-70} duration={500} className="footer-navigation-link">For businesses</Link>
+                            <Link to="/" className="footer-navigation-link">For students</Link>
+                            <Link to="/business" className="footer-navigation-link">For businesses</Link>
                             <a href="mailto:henrik.bredenbals@code.berlin" className="footer-navigation-link">Get in touch</a>
                         </div>
                     </div>

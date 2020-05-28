@@ -7,12 +7,17 @@ nav {
     box-shadow: 0px 1px 0px 0px rgba(227, 227, 227, 1);
 }
 
+.logo-name-wrapper {
+    cursor: pointer;
+}
+
 .logo-name {
     font-weight: 800;
     font-size: 1.5em;
     float: left;
     margin-left: 5%;
     margin-top: 28px;
+    cursor: pointer;
     color: var(--darkgrey);
 }
 
@@ -51,10 +56,6 @@ nav {
 .contact-btn.scrolled {
     background-color: var(--primary);
     color: white;
-}
-
-.contact-btn:hover {
-    opacity: .9;
 }
 
 .responsive-nav-btn {
@@ -204,6 +205,7 @@ nav {
     .logo-name {
         margin-left: 5%;
         margin-top: 19px;
+        cursor: pointer;
     }
 
     .nav-links {

@@ -62,7 +62,7 @@
 
 .footer3-email {
     margin: 0;
-    border-radius: 10px 0 0 10px;
+    border-radius: 4px 0 0 4px;
     background-color: transparent;
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
@@ -91,7 +91,7 @@
 .footer3-button {
     padding: 12px 36px;
     font-size: 18px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 4px 4px 0;
     color: var(--primary);
     font-weight: 600;
     cursor: pointer;
@@ -99,10 +99,6 @@
     margin-left: -6px;
     height: 49px;
     background-color: #FFFFFF;
-}
-
-.footer3-button:hover {
-    opacity: .9;
 }
 
 .success-signup {

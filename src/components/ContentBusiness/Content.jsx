@@ -9,10 +9,11 @@ class Content extends Component {
                 <div className="container">
                     <div className="content-wrapper">
                         <div className="content-left">
-                            <h3>Learn and get insights from our partners and network of professionals</h3>
+                            <h3>Enhance your business with reaching the right target group</h3>
                             <p>
-                                Together with our partners and experts we are providing different formats to learn
-                                everything about digital products.
+                                Young professionals are the fuel for your future success. Varry gives you an entrance
+                                point to not only get to know them. With the broad range of formats you as well have the
+                                opportunity to collaborate.
                             </p>
                             {/* Button */}
                             {/* Arrow */}
@@ -25,19 +26,21 @@ class Content extends Component {
                             */}
                         </div>
                         <div className="content-right">
-                            <img src={require('../../assets/images/content-1.png')} alt="content-img"/>
+                            <img src={require('../../assets/images/content-business-1.png')} alt="content-img"/>
                         </div>
                     </div>
                     <div className="content-wrapper" id="reverse">
                         <div className="content-right">
-                            <img src={require('../../assets/images/content-2.png')} alt="content-img"/>
+                            <img src={require('../../assets/images/content-business-2.png')} alt="content-img"/>
 
                         </div>
                         <div className="content-left">
-                            <h3>Be part of our vibrant community</h3>
+                            <h3>Help students while positioning your brand</h3>
                             <p>
-                                Get to know students from various fields with the same interest in digital products.
-                                Expand your network with like-minded students from all across Europe.
+                                Our community is eager and dependend on learning from our partners. You are giving them
+                                the possibility to learn from your day-to-day practice. With having this impact on the
+                                learning process your brand has the opportunity to etch itself deeply into the memory of
+                                the students.
                             </p>
                             {/* Button */}
                             {/* Arrow */}
@@ -52,11 +55,11 @@ class Content extends Component {
                     </div>
                     <div className="content-wrapper" id="content-third">
                         <div className="content-left">
-                            <h3>Get hired by joining our network</h3>
+                            <h3>Give your employees a stage</h3>
                             <p>
-                                Use the opportunity to build a personal relation towards our partners, connect with them
-                                and get informed about new working opportunities for internships, working student
-                                positions or for a collaboration for your thesis.
+                                You have the experts in your company. Varry enables you to give them a stage to
+                                represent not only your business but also themselves. At the same time they have a
+                                positive impact on the personal development of truly eager students.
                             </p>
                             {/* Button */}
                             {/* Arrow */}
@@ -69,7 +72,7 @@ class Content extends Component {
                             */}
                         </div>
                         <div className="content-right">
-                            <img src={require('../../assets/images/content-3.png')} alt="content-img"/>
+                            <img src={require('../../assets/images/content-business-3.png')} alt="content-img"/>
                         </div>
                     </div>
                 </div>

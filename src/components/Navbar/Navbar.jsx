@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-import {Link} from 'react-scroll';
+import {Link} from 'react-router-dom';
 
 class Navbar extends Component {
     state = {
@@ -31,11 +31,11 @@ class Navbar extends Component {
                         <div className="line line02"/>
                         <div className="line line03"/>
                     </div>
-                    <a href="/#"><p className="logo-name"><b>Varry</b></p></a>
+                    <Link to="/" className="logo-name-wrapper"><p className="logo-name"><b>Varry</b></p></Link>
                     <ul className={this.state.active ? "nav-links open" : "nav-links"}>
-                        <Link><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For Students</span></li></Link>
-                        <Link><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For Business</span></li></Link>
-                        <li><a href="/#" className={this.state.isTop ? "contact-btn" : "contact-btn scrolled"}>Get in touch</a></li>
+                        <Link to="/"><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For Students</span></li></Link>
+                        <Link to="/business"><li><span className={this.state.isTop ? "top-nav-links" : "top-nav-links scrolled"} onClick={this.toggleNav}>For Business</span></li></Link>
+                        <li><a href="mailto:henrik.bredenbals@code.berlin" className={this.state.isTop ? "contact-btn" : "contact-btn scrolled"}>Get in touch</a></li>
                     </ul>
                     <a href="mailto:henrik.bredenbals@code.berlin">
                         <a href="mailto:henrik.bredenbals@code.berlin">

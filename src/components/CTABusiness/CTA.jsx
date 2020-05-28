@@ -8,9 +8,9 @@ class CTA extends Component {
             <div className="CTA-bg">
                 <div className="container">
                     <div className="CTA-header">
-                        <h2>Join the future of education</h2>
+                        <h2>Want to become a partner?</h2>
                         <p>
-                            One platform. Everything you need to start your digital career.
+                            Build the platform hand-in-hand with us. Tailored to your needs.
                         </p>
                         <div className="CTA-btn-wrapper">
                             <a href="mailto:henrik.bredenbals@code.berlin">

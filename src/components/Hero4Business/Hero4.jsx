@@ -12,10 +12,9 @@ class Hero4 extends Component {
                 <img className="hero-bg-color-responsive" src={require('../../assets/images/hero-bg-responsive.svg')}
                      alt="hero-bg"/>
                 <div className="hero4-left">
-                    <h1>Your digital career starts here.</h1>
+                    <h1>Your access to top talents.</h1>
                     <p>
-                        Learn from digital experts and get access to everything for kick-starting your digital career.
-                        Entirely remote.
+                        Get direct access to our pool of selected talents from top-tier universities across Europe.
                     </p>
                     <div className="hero4-btn-wrapper">
                         <a href="mailto:henrik.bredenbals@code.berlin">
@@ -24,7 +23,7 @@ class Hero4 extends Component {
                     </div>
                 </div>
                 <div className="hero4-right">
-                    <img src={require('../../assets/images/hero-img.jpg')} alt="hero-img"/>
+                    <img src={require('../../assets/images/hero-business.jpg')} alt="hero-img"/>
                 </div>
             </div>
         );

@@ -1,28 +1,23 @@
 import React from 'react';
 import './App.css';
-import Hero4 from "./components/Hero4/Hero4";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
-import Content from "./components/Content/Content";
+import Students from "./pages/Students";
+import Business from "./pages/Business";
 import Footer3 from "./components/Footer3/Footer3";
-import CTA from "./components/CTA/CTA";
-import BoxIcon from "./components/BoxIcon/BoxIcon";
-import Testimonial from "./components/Testimonial/Testimonial";
-import Rating from "./components/Rating/Rating";
-import Logos from "./components/Logos/Logos";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
     return (
-        <div className="App">
-            <Navbar/>
-            <Hero4/>
-            <Logos/>
-            <Content/>
-            <BoxIcon/>
-            <Testimonial/>
-            <Rating/>
-            <CTA/>
-            <Footer3/>
-        </div>
+        <Router>
+            <ScrollToTop />
+            <Navbar />
+            <Switch>
+                <Route path="/" exact component={Students} />
+                <Route path="/business" component={Business} />
+            </Switch>
+            <Footer3 />
+        </Router>
     );
 }
 
